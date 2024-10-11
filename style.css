@@ -1,0 +1,115 @@
+* {
+    /* border: 2px solid red; */
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #284955, #1C0310);
+    color: white;
+}
+
+nav {
+    background-color: black;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a:active {
+    color: #ff3399; /* Highlight color for active or hovered links */
+}
+
+nav ul li a:hover {
+    color: #ff3399; /* Highlight color for active or hovered links */
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 50px  0px;
+}
+
+.text h1 {
+    font-size: 3em;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+.text p {
+    font-size: 0.8em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    float: right
+}
+
+button:hover {
+    background-color: #eee7ea;
+    border-color: #000;
+    color: black;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-color: black;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.copyright p {
+    color: black;
+}
+
+/* Resume */
+
+.resume {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bondpaper {
+    background-color: rgb(223, 208, 208);
+    height: 100vh;
+    width: 50%;
+}
